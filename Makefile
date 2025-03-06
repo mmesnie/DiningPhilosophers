@@ -1,12 +1,12 @@
 all:
 	@echo "usage: make <applet|standalone>"
 
-standalone:
+standalone: clean
 	ln -sf DiningPhilosopherStandalone.java DiningPhilosopher.java
 	javac DiningPhilosopher.java
 	java DiningPhilosopher
 
-applet:
+applet: clean
 	ln -sf DiningPhilosopherApplet.java DiningPhilosopher.java
 	javac DiningPhilosopher.java
 	appletviewer ./index.html

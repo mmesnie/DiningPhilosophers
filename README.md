@@ -5,3 +5,5 @@ Two options:
 
 1. make applet
 2. make standalone
+
+![Alt text](screenshot.png?raw=true)

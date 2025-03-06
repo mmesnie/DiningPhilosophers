@@ -1,5 +1,5 @@
 # dining
-The Dining Philosophers (with legacy applet and standalone modes). Circa 1995.
+The Dining Philosophers (with legacy applet and standalone modes). Circa 1996.
 
 Two options:
 
